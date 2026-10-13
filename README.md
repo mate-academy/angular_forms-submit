@@ -28,7 +28,7 @@ W pliku `incidents.service.ts`:
 - wstrzyknij `HttpClient`,
 - utwórz metodę `createIncident()`,
 - jako argument metody przyjmij obiekt `Incident`,
-- wykonaj request POST wysyłający dane do endpointu `/incidents`,
+- wykonaj request POST wysyłający dane do endpointu `http://localhost:4000/incidents`,
 - poczekaj na zakończenie requestu.
 
 #### 4. Odśwież dane po zapisie
